@@ -1,0 +1,67 @@
+        legend{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+            margin: 15px;
+            
+        }
+        table{
+            margin: 15px;
+        }
+        label{
+            font-weight: bold;
+            font-size: 18px;
+
+            
+        }
+        tr > th{
+            font-family: sans-serif;
+            font-size: 18px;
+            color: #120a8f;
+            
+        }
+        .aluno{
+            font-size: 16px;
+            color: #5b5b58;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+        }
+        #notas{
+            background: #fff;
+            border: 1px solid #424242;
+            color: #424242;
+            font-weight: bold;
+            padding: 4px 14px;
+            width: 50%;
+            margin: 3px 1px;
+        }
+        .botao {
+            background-color: #58acdd;
+            border-width: 1px;
+            margin: 25px 1px;
+            padding: 2px 12px;
+            font-weight: bold;
+            color: #fffdfd;
+            cursor: pointer;
+            
+        }
+        .limpar{
+            background-color: #dd5858;
+            border-width: 1px;
+            margin: 25px 3px;
+            padding: 2px 12px;
+            font-weight: bold;
+            color: #fffdfd;
+            cursor: pointer;
+        }
+        #idDisciplina{
+            background: #fff;
+            border: 1px solid #424242;
+            color: #424242;
+            font-weight: bold;
+            padding: 4px 14px;
+            width: 60%;
+            margin: 3px 1px;
+            
+
+        }

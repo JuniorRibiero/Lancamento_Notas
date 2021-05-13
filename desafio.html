@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lançamento de Notas</title>
+
+</head>
+
+<body>
+    <form>
+        <legend>Lançamento de Notas</legend>
+        <table border="0">
+            <tr>
+                <td>
+                    <label for="idDisciplina">Selecione a disciplina</label>
+                    <select name="Selecione a disciplina" id="idDisciplina">
+                        <option value="I">Introdução a informática</option>
+                        <option value="L">Linguagens de Programação</option>
+                        <option value="P">Programação de Computadores</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome do Aluno</th>
+                    <th>Prova 1</th>
+                    <th>Prova 2</th>
+                    <th>Exame</th>
+                    <th>Média</th>
+                    <th>Faltas</th>
+                </tr>
+            </thead>
+            <tbody id="notas">
+                <tr>
+                    <td class="aluno">Joana da Silva</td>
+                    <td><input id="notas" type="number" min="0" max="10" name="Prova 1" required></td>
+                    <td><input id="notas" type="number" min="0" max="10" name="Prova 2" required></td>
+                    <td><input id="notas" type="number" min="0" max="10"></td>
+                    <td><input id="notas" type="number" min="0.0" step="0.1" max="10.0" name="Média" readonly></td>
+                    <td><input id="notas" type="number" min="0" max="16" name="Faltas" required></td>
+                </tr>
+                <tr>
+                    <td class="aluno">Maria do Socorro</td>
+                    <td><input id="notas" type="number" min="0" max="10" name="Prova 1" required></td>
+                    <td><input id="notas" type="number" min="0" max="10" name="Prova 2" required></td>
+                    <td><input id="notas" type="number" min="0" max="10"></td>
+                    <td><input id="notas" type="number" min="0.0" step="0.1" max="10.0" name="Média" readonly></td>
+                    <td><input id="notas" type="number" min="0" max="16" name="Faltas" required></td>
+                    
+                </tr>
+                <tr>
+                    <td class="aluno">Pedro Santos</td>
+                    <td><input id="notas" type="number" min="0" max="10" name="Prova 1" required></td>
+                    <td><input id="notas" type="number" min="0" max="10" name="Prova 2" required></td>
+                    <td><input id="notas" type="number" min="0" max="10"></td>
+                    <td><input id="notas" type="number" min="0.0" step="0.1" max="10.0" name="Média" readonly></td>
+                    <td><input id="notas" type="number" min="0" max="16" name="Faltas" required></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td><input class="botao" type="submit" name="Salvar" value="Salvar"></td>
+                    <td><input class="limpar" type="reset" name="Limpar" value="Limpar"></td>
+
+                </tr>
+            </tfoot>
+        </table>
+
+
+
+
+    </form>
+</body>
+
+</html>
